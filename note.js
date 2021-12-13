@@ -6,4 +6,21 @@ constructor(title, content, id) {
     this.id = od;
 }
 
+
+getTitle() {
+
+return this.title;
+
 }
+getContent(){
+
+    return this.content;
+}
+getID(){
+
+    return this.id;
+}
+
+}
+
+module.exports = Notes;
