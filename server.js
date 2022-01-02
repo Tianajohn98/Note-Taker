@@ -9,3 +9,10 @@ const app = express();
 app.listen(3002, () => {
   console.log("API server now on port 3002!");
 });
+
+app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+let uniqueIDs = [];
+let localNotes = [];
