@@ -59,3 +59,19 @@ app.post("/api/notes", (req, res) => {
 
   res.sendFile(path.join(__dirname, "/db/db.json"));
 });
+
+uniqueID = () => {
+  let r = 0;
+  for (let i = 0; i < 2; i++) {
+    r = Math.floor(Math.random() * (1000 - 100) + 100);
+  }
+
+  if (uniqueIDs.includes(r)) {
+    uniqueID();
+    console.log("un-unique Number, re-generate");
+  } else {
+    uniqueIDs.push(r);
+
+    return r;
+  }
+};
