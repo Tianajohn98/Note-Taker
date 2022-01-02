@@ -1,26 +1,19 @@
-class Notes{
-constructor(title, content, id) {
-
+class Notes {
+  constructor(title, content, id) {
     this.title = title;
     this.content = content;
-    this.id = od;
-}
+    this.id = id;
+  }
 
-
-getTitle() {
-
-return this.title;
-
-}
-getContent(){
-
+  getTitle() {
+    return this.title;
+  }
+  getContent() {
     return this.content;
-}
-getID(){
-
+  }
+  getID() {
     return this.id;
-}
-
+  }
 }
 
 module.exports = Notes;
