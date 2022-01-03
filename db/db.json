@@ -1,1 +1,5 @@
-[{"title":"Another note","content":"on another note\n","id":730},{"title":"practice note","content":"practicing","id":784},{"title":"Test Title","text":"Test text"}]
+[
+  { "title": "Another note", "content": "on another note\n", "id": 730 },
+  { "title": "practice note", "content": "practicing", "id": 784 },
+  { "title": "Test Title", "text": "Test text" }
+]
