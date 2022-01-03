@@ -5,9 +5,10 @@ const path = require("path");
 const fs = require("fs");
 const Note = require("./Note");
 const app = express();
+const PORT = process.env.PORT || 3002;
 
-app.listen(3002, () => {
-  console.log("API server now on port 3002!");
+app.listen(PORT, () => {
+  console.log("API server now on port ${PORT}!");
 });
 
 app.use(express.static("public"));
