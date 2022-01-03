@@ -11,3 +11,4 @@ To create a note the user must click the plus button in the upper write corner. 
 ---
 
 ### Screenshots
+![Image 1-2-22 at 7 11 PM](https://user-images.githubusercontent.com/89621944/147892924-21e8f283-4257-418c-a8cc-c09387df67a4.jpg)
